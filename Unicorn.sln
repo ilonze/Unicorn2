@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn.Core", "Unicorn.Core\Unicorn.Core.csproj", "{53AFEE48-53F6-4309-8E6F-EF5CA3E097C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicorn", "Unicorn\Unicorn.csproj", "{0F9C58FE-88E6-4C20-9D56-643C3CEF08BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B08C0072-8C5A-4D39-8D27-A66C334BD185}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Autofac.Integration.Owin.dll = Libs\Autofac.Integration.Owin.dll
+		Libs\Autofac.Integration.Owin.xml = Libs\Autofac.Integration.Owin.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53AFEE48-53F6-4309-8E6F-EF5CA3E097C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AFEE48-53F6-4309-8E6F-EF5CA3E097C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AFEE48-53F6-4309-8E6F-EF5CA3E097C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AFEE48-53F6-4309-8E6F-EF5CA3E097C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9C58FE-88E6-4C20-9D56-643C3CEF08BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9C58FE-88E6-4C20-9D56-643C3CEF08BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9C58FE-88E6-4C20-9D56-643C3CEF08BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9C58FE-88E6-4C20-9D56-643C3CEF08BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC70661-8536-479E-A764-696B09192B55}
+	EndGlobalSection
+EndGlobal
